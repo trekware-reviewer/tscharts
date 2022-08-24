@@ -3,7 +3,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 7.17.3
-    created: "2022-08-24T12:16:15.33555466Z"
+    created: "2022-08-24T13:45:42.54948169Z"
     description: Official Elastic helm chart for Elasticsearch
     digest: 437a6bd248482b8eb663a1f63bee6c2f9d00c0d77abe90c5a86ca35631969608
     home: https://github.com/elastic/helm-charts
@@ -17,4 +17,4 @@ entries:
     urls:
     - elasticsearch-7.17.3.tgz
     version: 7.17.3
-generated: "2022-08-24T12:16:15.333707768Z"
+generated: "2022-08-24T13:45:42.547591198Z"
