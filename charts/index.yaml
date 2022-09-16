@@ -3,7 +3,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 7.17.3
-    created: "2022-08-24T13:45:42.54948169Z"
+    created: "2022-09-16T12:40:57.206051774Z"
     description: Official Elastic helm chart for Elasticsearch
     digest: 437a6bd248482b8eb663a1f63bee6c2f9d00c0d77abe90c5a86ca35631969608
     home: https://github.com/elastic/helm-charts
@@ -17,4 +17,38 @@ entries:
     urls:
     - elasticsearch-7.17.3.tgz
     version: 7.17.3
-generated: "2022-08-24T13:45:42.547591198Z"
+  kibana:
+  - apiVersion: v1
+    appVersion: 7.17.3
+    created: "2022-09-16T12:40:57.207091272Z"
+    description: Official Elastic helm chart for Kibana
+    digest: 9deb957f8fcadd4a8a949da273f605e1146679929da1cad7ec45904f3e82bdde
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/kibana.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: kibana
+    sources:
+    - https://github.com/elastic/kibana
+    urls:
+    - kibana-7.17.3.tgz
+    version: 7.17.3
+  logstash:
+  - apiVersion: v1
+    appVersion: 7.17.3
+    created: "2022-09-16T12:40:57.20849447Z"
+    description: Official Elastic helm chart for Logstash
+    digest: 8d090828ace9442fb2d64c1576474b422fd498b8eb56d33438e3bcc59e4fccb2
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/logstash.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: logstash
+    sources:
+    - https://github.com/elastic/logstash
+    urls:
+    - logstash-7.17.3.tgz
+    version: 7.17.3
+generated: "2022-09-16T12:40:57.198485289Z"
